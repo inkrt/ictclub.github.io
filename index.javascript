@@ -1,5 +1,5 @@
 function showPage(pageId) {
-  // すべてのページを非表示にする
+  
   const pages = document.querySelectorAll('.page');
   pages.forEach(page => page.classList.remove('active'));
   
